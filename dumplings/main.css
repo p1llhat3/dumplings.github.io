@@ -124,10 +124,11 @@ body {
 }
 
 
+
 .foot-zz-img {
     position: absolute;
     bottom: 27px;
-    left: 0;
+    right: 0;
     margin-left: -150px;
 }
 
