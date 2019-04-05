@@ -9,7 +9,7 @@ body {
 
 .all-web {
     width: 100%;
-    height: 100%;
+    height: auto;
 
 }
 
@@ -89,8 +89,9 @@ body {
     width: 50%;
     background-image: url(img/pl-ph-1.jpg);
     background-repeat: repeat-x;
-    background-size: 150%;
-    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 
     position: absolute;
     top: 0;
@@ -169,6 +170,7 @@ body {
     background-image: url(img/big-photo.png);
     height: 700px;
     width: 47%;
+    float: left;
     /* background: grey; */
     /* position: absolute;
     top: 1020px;
@@ -180,9 +182,8 @@ body {
     /* background: red; */
     height: auto;
     width: 575px;
-    position: absolute;
-    top: 0;
-    left: 950px;
+    margin-left: 50px;
+    float: left;
 }
 
 .min-photo-1 {
@@ -297,4 +298,10 @@ body {
 .adds-rest p {
     margin: 0 25px;
     display: inline-block;
+}
+
+@media all and (min-width: 1820px;) {
+    .foot-zz-img {
+        display: none;
+    }
 }
