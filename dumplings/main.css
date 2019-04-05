@@ -1,10 +1,11 @@
 body {
 
-    font-family: Roboto;
+    font-family: Arial;
     font-size: 18px;
     margin: 0;
     padding: 0;
 }
+
 
 .all-web {
     width: 100%;
@@ -216,7 +217,7 @@ body {
 .rest-menu {
     position: relative;
     width: 100%;
-    height: 1500px;
+    height: фauto;
     background: white;
     margin-top: 96px;
 }
@@ -235,7 +236,7 @@ body {
 .menu-text {
     height: 310px;
     margin-top: 96px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 
@@ -274,4 +275,26 @@ body {
 
 .map-win {
     border: 0;
+}
+
+.adds-rest {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.adds-rest a {
+    color: #486180;
+    text-decoration: none;
+}
+
+.ad-rst {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 46px;
+}
+
+.adds-rest p {
+    margin: 0 25px;
+    display: inline-block;
 }
