@@ -123,17 +123,11 @@ body {
     z-index: 10;
 }
 
-.foot-img {
-    position: absolute;
-    bottom: 0;
-    left: 340px;
-    margin-bottom: -20px;
-}
 
 .foot-zz-img {
     position: absolute;
     bottom: 27px;
-    right: 0;
+    left: 0;
     margin-left: -150px;
 }
 
@@ -300,7 +294,7 @@ body {
     display: inline-block;
 }
 
-@media all and (min-width: 1820px;) {
+@media (min-width: 1920px;) {
     .foot-zz-img {
         display: none;
     }
