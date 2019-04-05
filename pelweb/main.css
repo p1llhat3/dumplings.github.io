@@ -1,0 +1,277 @@
+body {
+
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.all-web {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.top-head {
+    height: 80px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.main-menu {
+    margin: auto;
+    width: 1200px;
+}
+
+.main-menu ul {
+    text-align: center;
+    line-height: 40px;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 0 42px;
+    font-weight: normal;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #486180;
+}
+
+.main-menu a:hover {
+    transition: all .5s;
+    background: #FFE1D8;
+}
+
+
+
+.logo {
+    position: absolute;
+    left: 100px;
+    top: -200px;
+}
+
+.zz-line-1 {
+    position: absolute;
+    left: 0;
+    top: 800px
+}
+
+.first-screen {
+    height: 970px;
+    width: 100%;
+}
+
+.frt-src-left {
+    height: 970px;
+    width: 50%;
+    background: white;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frt-src-left p {
+    color: #486180;
+
+}
+
+.frt-src-right {
+    height: 970px;
+    width: 50%;
+    background-image: url(img/pl-ph-1.jpg);
+    background-repeat: repeat-x;
+    background-size: 150%;
+    background-position: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.wsixzz {
+    height: 970px;
+    width: 600px;
+    float: right;
+    position: relative;
+}
+
+.wlc-text {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -20%;
+
+}
+.bottom-foot {
+    height: 80px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.foot-img {
+    position: absolute;
+    bottom: 0;
+    left: 340px;
+    margin-bottom: -20px;
+}
+
+.foot-zz-img {
+    position: absolute;
+    bottom: 27px;
+    right: 0;
+    margin-left: -150px;
+}
+
+.main-foot {
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    padding-top: 30px;
+
+}
+
+.main-foot p {
+    color: #486180;
+    margin: 0 42px;
+    display: inline-block;
+
+}
+
+.main-foot a {
+    text-decoration: none;
+    color: #486180;
+}
+
+/*  */
+
+.photo-block {
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.big-photo {
+    background-image: url(img/big-photo.png);
+    height: 700px;
+    width: 47%;
+    /* background: grey; */
+    /* position: absolute;
+    top: 1020px;
+    left: 0; */
+}
+
+
+.min-photo-block {
+    /* background: red; */
+    height: auto;
+    width: 575px;
+    position: absolute;
+    top: 0;
+    left: 950px;
+}
+
+.min-photo-1 {
+    background-image: url(img/min-photo-1.png);
+    margin-bottom: 50px;
+    /* background: green; */
+    height: 325px;
+    width: 575px;
+}
+
+.min-photo-2 {
+    background-image: url(img/min-photo-2.png);
+    margin-bottom: 50px;
+    /* background: green; */
+    height: 325px;
+    width: 575px
+}
+
+.vr-line-pht {
+    position: absolute;
+    top: 0;
+    right: 415px;
+}
+/* МЕНЮ */
+
+.menu-zz {
+    position: absolute;
+    top: 10px;
+    left: 570px;
+}
+
+.rest-menu {
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background: white;
+    margin-top: 96px;
+}
+
+
+.rest-mn-block {
+    height: auto;
+    width: 1200px;
+    margin: auto;
+}
+
+.rest-mn-block h1 {
+    color: #486180;
+}
+
+.menu-text {
+    height: 310px;
+    margin-top: 96px;
+    margin-bottom: 150px;
+}
+
+
+
+.cat-food p {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.food-name {
+    color: #486180;
+}
+
+.food-dots {
+    color: #5ED4EE;
+}
+
+.food-price {
+    color: #C63000;
+}
+
+.frs-col {
+    display: block;
+    float: left;
+}
+
+.frs-col:last-child {
+    margin-left: 249px;
+}
+
+.map {
+    height: 650px;
+    width: 1200px;
+    margin: auto;
+}
+
+.map-win {
+    border: 0;
+}
