@@ -1,6 +1,13 @@
+
+
 body {
+    background: black;
+    color: white;
     font-family: Arial;
+    transition: all .3s;
 }
+
+
 
 .cont {
     padding-top: 150px;
@@ -11,20 +18,38 @@ body {
 
 li {
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 24px;
 }
 
 a:hover {
-    color: blue;
+    color: red;
     text-decoration:underline;
 }
 
-h1 {
-    margin-bottom: 70px;
+h2 {
+    font-weight: lighter;
+}
+
+.all {
+    position: relative;
+}
+
+.lonk {
+    height: 17px;
+    width: 10px;
+    background: red;
+    position: absolute;
+    top: 4;
+    left: 20px;
+}
+
+p {
+    color: grey;
+    font-size: 18px;
 }
