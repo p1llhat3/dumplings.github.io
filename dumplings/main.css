@@ -278,14 +278,18 @@ body {
 }
 
 .map {
-    height: 650px;
-    width: 1200px;
     margin: auto;
+    height: auto;
+    width: 1200px;
 }
 
 .map-win {
+    height: 650px;
+    width: 1200px;
+    margin: auto;
     border: 0;
 }
+
 
 .adds-rest {
     width: 1200px;
@@ -319,9 +323,25 @@ body {
     .menu-zz {
         display: none;
     }
+
+    .map {
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    .map-win {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1270px){
+
+    .adds-rest {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
 
     .rest-menu {
 
@@ -394,11 +414,25 @@ body {
     .main-menu {
         width: 100%;
     }
+
+    .main-foot {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 960px){
 
+    .map {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        margin-bottom: 100px;
+    }
 
+    .map-win {
+        height: 350px;
+        width: 100%;
+    }
 
     .all-web {
         height: 600px;
@@ -472,5 +506,86 @@ body {
 
     .min-photo-2 {
         display: none;
+    }
+
+    .rest-menu {
+        height: 1500px;
+    }
+
+    .menu-text {
+        height: 670px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .frs-col {
+        height: 300px;
+        display: block;
+        float: none;
+        margin-bottom: 0;
+    }
+
+    .frs-col:last-child {
+        margin-left: 0;
+    }
+}
+
+@media screen (max-width: 600px) {
+
+    .adds-rest {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .adds-rest a {
+        color: #486180;
+        text-decoration: none;
+    }
+
+    .ad-rst {
+        text-align: left;
+        margin-top: 96px;
+        margin-bottom: 46px;
+    }
+
+    .adds-rest p {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+
+    .map-win {
+        width: 100%;
+    }
+
+    .bottom-foot {
+        height: 120px;
+        width: 100%;
+        background: white;
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+    }
+
+
+    .main-foot {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+
+
+    }
+
+    .main-foot p {
+        margin-bottom: 10px;
+        color: #486180;
+
+
+    }
+
+    .main-foot a {
+        text-decoration: none;
+        color: #486180;
     }
 }
