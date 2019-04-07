@@ -168,6 +168,9 @@ body {
 
 .big-photo {
     background-image: url(img/big-photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     height: 700px;
     width: 47%;
     float: left;
@@ -189,6 +192,9 @@ body {
 .min-photo-1 {
     background-image: url(img/min-photo-1.png);
     margin-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     /* background: green; */
     height: 325px;
     width: 575px;
@@ -197,6 +203,9 @@ body {
 .min-photo-2 {
     background-image: url(img/min-photo-2.png);
     margin-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     /* background: green; */
     height: 325px;
     width: 575px
@@ -216,9 +225,9 @@ body {
 }
 
 .rest-menu {
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    height: фauto;
+    height: auto;
     background: white;
     margin-top: 96px;
 }
@@ -300,9 +309,168 @@ body {
     display: inline-block;
 }
 
-@media only screen and (max-width: 1370px;) {
+@media only screen and (max-width: 1900px) {
+    .foot-zz-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .menu-zz {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1270px){
+
+    .rest-menu {
+
+        width: 100%;
+        height: 1600px;
+        background: white;
+        margin-top: 96px;
+    }
+
+    .frs-col {
+        display: inline;
+
+    }
+
+    .frs-col:last-child {
+        margin-left: 100px;
+    }
+
+    .vr-line-pht {
+        display: none;
+    }
+
+    .photo-block {
+        height: 400px;
+    }
+
+    .rest-mn-block {
+        width: 90%;
+    }
+
+    .big-photo {
+        background-image: url(img/big-photo.png);
+        height: 700px;
+        width: 100%;
+        /* float: left; */
+        /* background: grey; */
+        /* position: absolute;
+        top: 1020px;
+        left: 0; */
+    }
+
+
+    .min-photo-block {
+        /* background: red; */
+        margin-top: 50px;
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        float: left; */
+    }
+
     .min-photo-1 {
+        background-image: url(img/min-photo-1.png);
+        margin-bottom: 50px;
+        /* background: green; */
+        height: 325px;
+        width: 48%;
+        float: left;
+    }
+
+    .min-photo-2 {
+        background-image: url(img/min-photo-2.png);
+        margin-bottom: 50px;
+        /* background: green; */
+        height: 325px;
+        width: 48%;
+        float: right;
+    }
+
+    .main-menu {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+
+
+    .all-web {
+        height: 600px;
+    }
+    .zz-line-1 {
+        display: none;
+    }
+
+    .wlc-text {
+        left: 50%;
+        margin-left: -200px;
+        text-align: center;
         width: 400px;
-        height: 100px;
+        height: auto;
+        position: absolute;
+        top: 70%;
+        /* margin-top: -10%; */
+
+    }
+
+    .wsixzz {
+        height: 600px;
+        width: 100%;
+
+        position: relative;
+    }
+
+    .frt-src-left {
+        height: 600px;
+        width: 100%;
+        background: white;
+
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+    }
+
+    .frt-src-right {
+        display: none;
+    }
+
+    .big-photo {
+        background-image: url(img/big-photo.png);
+        height: 400px;
+        width: 50%;
+        /* float: left; */
+        /* background: grey; */
+        /* position: absolute;
+        top: 1020px;
+        left: 0; */
+    }
+
+
+    .min-photo-block {
+        /* background: red; */
+        height: auto;
+        width: 50%;
+        margin-left: 0;
+        float: left;
+        margin-top: 0;
+    }
+
+    .min-photo-1 {
+        background-image: url(img/min-photo-1.png);
+        margin-bottom: 0;
+        margin-top: 0;
+        /* background: green; */
+        height: 400px;
+        width: 100%;
+    }
+
+    .min-photo-2 {
+        display: none;
     }
 }
