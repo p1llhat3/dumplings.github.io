@@ -100,18 +100,20 @@ body {
 
 .wsixzz {
     height: 970px;
-    width: 600px;
-    float: right;
+    width: 100%;
+
     position: relative;
 }
 
 .wlc-text {
+    left: 50%;
+    margin-left: -200px;
     text-align: center;
     width: 400px;
     height: auto;
     position: absolute;
     top: 50%;
-    margin-top: -20%;
+    margin-top: -10%;
 
 }
 .bottom-foot {
@@ -295,7 +297,7 @@ body {
     display: inline-block;
 }
 
-@media (min-width: 1920px;) {
+@media screen (min-width: 1920px;) {
     .foot-zz-img {
         display: none;
     }
