@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    background: black;
+}
+
+.all-dsk {
+    height: 292px;
+    width: 1300px;
+}
+
+.all-dsk div {
+    margin-left: 24px;
+}
+
+.av-img {
+    background-image: url(img/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 94% 40%;
+    /* background: grey; */
+    height: 292px;
+    width: 292px;
+    float: left;
+}
+
+.dsc-text {
+    height: 292px;
+    width: 608px;
+    background: grey;
+    float: left;
+}
+
+.scl-links {
+    background: grey;
+    height: 292px;
+    width: 292px;
+    float: left;
+}
+
+.scl-links {
+    display: block;
+}
+
+.cont {
+    width: 1240px;
+    height: 292px;
+    margin-left: 340px;
+    margin-top: 24px;
+}
+
+.proj-link-text {
+    width: 924px;
+    height: 292px;
+    background: grey;
+    float: left;
+}
+.proj-prev {
+    height: 292px;
+    width: 292px;
+    background: grey;
+    float: right;
+}
+
+@media screen and (max-width: 1616px) {
+    .cont {
+        width: 1240px;
+        height: 292px;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .scl-links {
+        display: none;
+    }
+    .proj-prev {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px){
+
+}
